@@ -1,16 +1,5 @@
-import Contact from './componets/contact'
-import About from './componets/about'
-import Projects from './componets/projects'
-import Navbar from './componets/nav-bar'
+import PageContainer from './componets/pageContainer'
 
-
-function App() {
-
-  return (
-    <>
-      <h1>HI</h1>
-    </>
-  )
-}
+const App = () => <PageContainer />;
 
 export default App

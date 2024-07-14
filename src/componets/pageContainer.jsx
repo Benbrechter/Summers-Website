@@ -15,5 +15,4 @@ function pageContainer() {
         </div>
     )
 }
-
-export default pageContainer
+ export default pageContainer

@@ -1,16 +1,12 @@
-import Contact from './componets/contact'
-import About from './componets/about'
-import Projects from './componets/projects'
-import Navbar from './componets/nav-bar'
-
+import pageContainer from "./componets/pageContainer"
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
-
-  return (
-    <>
-      <h1>HI</h1>
-    </>
-  )
+  return(
+    <Router>
+      <pageContainer />
+    </Router>  
+)
 }
 
 export default App

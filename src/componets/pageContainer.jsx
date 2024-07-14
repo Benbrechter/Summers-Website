@@ -1,7 +1,10 @@
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Home from "./pages/home"
 import Resume from "./pages/Resume"
+import Contact from "./contact"
+import Navbar from './nav-bar'
 
-function pageContainer() {
+function PageContainer() {
     
     return (
         <div>
@@ -12,7 +15,8 @@ function pageContainer() {
                 <Route path="/resume" element={<Resume />} />
                 </Routes>
             </div>
+            <Contact/>
         </div>
     )
 }
- export default pageContainer
+ export default PageContainer

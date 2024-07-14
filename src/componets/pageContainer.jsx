@@ -1,35 +1,18 @@
-import { useState } from 'react';
-import Contact from './contact'
-import About from './about'
-import Projects from './projects'
-import Navbar from './nav-bar'
+import Home from "./pages/home"
+import Resume from "./pages/Resume"
 
-function PageContainer() {
-    const [ currentPage, setCurrentPage] = useState('Home')
-
-    const renderPage = () => {
-        if (currentPage === 'Home') {
-          return <Home handlePageChange={handlePageChange}/>;
-        }
-        if (currentPage === 'Projects') {
-          return <Projects />;
-        }
-        if (currentPage === 'About'){
-            return < About />
-        }
-        if (currentPage === 'Contact'){
-            return < Contact />
-        }
-      };
-
-      const handlePageChange = (page) => setCurrentPage(page);
+function pageContainer() {
+    
     return (
-        <div className='page-container'>
-      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-      <main >{renderPage()}</main>
-      <footer><Connections/></footer>
-    </div>
-    );
+        <div>
+            <Navbar/>
+            <div>
+                <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/resume" element={<Resume />} />
+                </Routes>
+            </div>
+        </div>
+    )
 }
-
-export default PageContainer
+ export default pageContainer

@@ -2,7 +2,7 @@
 function About() {
 
     return (
-      <div>
+      <div className="about-container">
         <img src="" alt="" />
 
         <div className="about-text-container">

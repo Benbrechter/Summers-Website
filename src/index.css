@@ -2,6 +2,7 @@ body{
   margin: 0px;
   padding: 0px;
 }
+/* navbar */
 .navbar{
   display: flex;
   background-color: blue;
@@ -14,4 +15,44 @@ body{
 .nav-list{
  list-style: none;
  margin-right: 10px;
+}
+
+/* about */
+.about-container{
+  padding: 10px;
+  width: 100vw;
+  height: max-content;
+  background-color: bisque;
+}
+
+/* distography */
+.dis-container{
+  padding: 10px;
+  width: 100vw;
+  height: max-content;
+}
+
+/* projects */
+.project-container{
+  padding: 10px;
+  width: 100vw;
+  height: max-content;
+  background-color: bisque;
+}
+.projects-box{
+  margin-left: 50px;
+  height: 200px;
+  width: 200px;
+  background-color: black;
+}
+.revolving-boxes{
+  display: flex;
+  flex-direction: row;
+}
+
+/* contact */
+.contact-container{
+  padding: 10px;
+  width: 100vw;
+  height: max-content;
 }

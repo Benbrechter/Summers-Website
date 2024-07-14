@@ -2,10 +2,15 @@
 function Projects() {
 
     return (
-      <div>
+      <div className="project-container">
         <h1>Projects</h1>
 
-        <div className="project-Container">
+        <div className="revolving-boxes">
+
+         <div className="projects-box"></div>
+         <div className="projects-box"></div>
+         <div className="projects-box"></div>
+         <div className="projects-box"></div>
 
         </div>
       </div>

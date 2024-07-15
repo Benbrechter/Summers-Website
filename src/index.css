@@ -5,23 +5,39 @@ body{
 /* navbar */
 .navbar{
   display: flex;
-  background-color: blue;
+  background-color: #FADFBB;
   justify-content: space-between;
 }
 .nav-links{
   display: flex;
   flex-direction: row;
 }
+.Summer{
+  color: black;
+}
+.Summer:visited{
+  color: black;
+}
+.Summer:hover{
+  font-size: larger;
+}
 .nav-list{
  list-style: none;
+ color: black;
  margin-right: 10px;
+}
+.nav-list:visited{
+  color: black;
+}
+.nav-list:hover{
+  font-size: larger;
 }
 
 /* about */
 .about-container{
   padding: 10px;
   height: max-content;
-  background-color: bisque;
+  background-color: #FADFBB;
   display: flex; 
   justify-content: space-around;
   flex-direction: row-reverse;
@@ -45,7 +61,7 @@ body{
 .project-container{
   padding: 10px;
   height: max-content;
-  background-color: bisque;
+  background-color: #FADFBB;
   display: flex;
   flex-direction: column;
 }
@@ -71,7 +87,6 @@ body{
 .form-container{
   width: 500px;
   height: 600px;
-  border: 1px solid black;
 }
 .form-detail{
   display: flex;
@@ -90,7 +105,11 @@ body{
 }
 
 /* Footer */
-
+.line{
+  width: 100vw;
+  border-top: 2px solid black;
+  margin-bottom: 15px;
+}
 .icon-container{
   display: flex;
   justify-content: center;

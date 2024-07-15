@@ -1,4 +1,4 @@
-
+import spotify from '../assets/spotify.png'
 
 function Distography() {
 
@@ -10,7 +10,7 @@ function Distography() {
       </section>
       
       <section>
-        <div>This will be a clickable img</div>
+       <a href="https://open.spotify.com/artist/4iDWF60uB5ChRxy4XybXkShttps://open.spotify.com/artist/4iDWF60uB5ChRxy4XybXkS"><img src={spotify} alt="" className="footer-img" /></a> 
         <div>this will also bring you to a clickable </div>
       </section>
       

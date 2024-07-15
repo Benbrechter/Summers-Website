@@ -20,27 +20,36 @@ body{
 /* about */
 .about-container{
   padding: 10px;
-  width: 100vw;
   height: max-content;
   background-color: bisque;
+  display: flex; 
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+.about-text-container{
+  width: 400px;
 }
 
 /* distography */
 .dis-container{
   padding: 10px;
-  width: 100vw;
   height: max-content;
+  display: flex;
+  justify-content: space-around;
+}
+.dist-text{
+  width: 400px;
 }
 
 /* projects */
 .project-container{
   padding: 10px;
-  width: 100vw;
   height: max-content;
   background-color: bisque;
+  display: flex;
+  flex-direction: column;
 }
 .projects-box{
-  margin-left: 50px;
   height: 200px;
   width: 200px;
   background-color: black;
@@ -48,11 +57,45 @@ body{
 .revolving-boxes{
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 /* contact */
 .contact-container{
+  display: flex;
+  justify-content: space-between;
   padding: 10px;
-  width: 100vw;
   height: max-content;
+  margin-bottom: 10px;
+}
+.form-container{
+  width: 500px;
+  height: 600px;
+  border: 1px solid black;
+}
+.form-detail{
+  display: flex;
+  flex-direction: column;
+}
+.label{
+  margin: 15px 0 15px 0;
+}
+.form-text{
+  height: 25px;
+}
+.form-btn{
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+/* Footer */
+
+.icon-container{
+  display: flex;
+  justify-content: center;
+}
+.footer-img{
+  height: 45px;
+  margin-right: 18px;
 }

@@ -6,7 +6,7 @@ function Distography() {
      <div className="dis-container">
       <section className="dist-text">
         <h1>Distography</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet libero, qui commodi ratione dignissimos unde fugiat provident culpa accusantium sapiente quae officia ad animi voluptatum pariatur ipsa sint. In, non.</p>
+        <p>I started writing songs at a young age, learning guitar chords from a small waterlogged book and looping cricket sounds on my dad's computer. Gradually, I began to experiment more with recording, and at some point, the music and the artistry took off together. I started creating projects with more intention and personal significance. Through digitally manipulating the quiet background sounds in my bedroom, I’ve found many new ways of making my internal world a bit more tangible.</p>
       </section>
       
       <section>

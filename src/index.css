@@ -45,8 +45,8 @@ body{
 .about-text-container{
   width: 400px;
 }
-.about-header{
-
+.about-summer-img{
+height: 100px;
 }
 .about-text{
   
@@ -65,21 +65,45 @@ body{
 /* projects */
 .project-container{
   padding: 10px;
-  height: max-content;
+  height: 430px;
   background-color: #FADFBB;
   display: flex;
   flex-direction: column;
 }
 .projects-box{
-  height: 200px;
+  height: 300px;
   width: 200px;
-  background-color: black;
 }
 .revolving-boxes{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
+.project-img{
+height:200px;
+}
+.project-headers{
+  margin:0 ;
+}
+
+/* drawings */
+.drawing-section{
+  padding: 10px;
+  height: max-content;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  justify-content: center;
+  justify-items: center;
+}
+.drawing-container{
+  height: 300px;
+  margin: 10px;
+}
+.summers-drawings{
+  height: 250px;
+  border: 2px solid black;
+}
+
 
 /* contact */
 .contact-container{
@@ -88,6 +112,7 @@ body{
   padding: 10px;
   height: max-content;
   margin-bottom: 10px;
+  background-color: #FADFBB;
 }
 .form-container{
   width: 500px;

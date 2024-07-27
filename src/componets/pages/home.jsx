@@ -2,6 +2,7 @@ import About from '../about'
 import Projects from '../projects'
 import Distography from '../distography'
 import Contact from '../contact'
+import Drawing from '../drawing'
 
 function Home() {
     return (
@@ -14,6 +15,9 @@ function Home() {
             </section>
             <section id='projects'>
                 <Projects/>
+            </section>
+            <section id='drawings'>
+                <Drawing/>
             </section>
             <section id='contact'>
                 <Contact/>

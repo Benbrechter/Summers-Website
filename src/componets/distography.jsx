@@ -1,4 +1,5 @@
 import spotify from '../assets/spotify.png'
+import bandcamp from '../assets/bandcamp2.png'
 
 function Distography() {
 
@@ -10,7 +11,8 @@ function Distography() {
       </section>
       
       <section>
-       <a href="https://open.spotify.com/artist/4iDWF60uB5ChRxy4XybXkShttps://open.spotify.com/artist/4iDWF60uB5ChRxy4XybXkS"><img src={spotify} alt="" className="footer-img" /></a> 
+       <a href="https://open.spotify.com/artist/4iDWF60uB5ChRxy4XybXkS"><img src={spotify} alt="" className="footer-img" /></a> 
+       <a href="https://summergozum.bandcamp.com/track/backward"><img src={bandcamp} alt="" className="footer-img" /></a> 
         <div>this will also bring you to a clickable </div>
       </section>
       

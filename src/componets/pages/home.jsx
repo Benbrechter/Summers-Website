@@ -10,15 +10,19 @@ function Home() {
             <section id='about'>
                 <About/>  
             </section>
+
+             <section id='projects'>
+                <Projects/>
+            </section>
+
             <section id='distography'>
                 <Distography/>
             </section>
-            <section id='projects'>
-                <Projects/>
-            </section>
+           
             <section id='drawings'>
                 <Drawing/>
             </section>
+            
             <section id='contact'>
                 <Contact/>
             </section>

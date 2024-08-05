@@ -1,6 +1,7 @@
 body{
   margin: 0px;
   padding: 0px;
+  
 }
 /* navbar */
 .navbar{
@@ -79,6 +80,9 @@ height: 100px;
   display: flex;
   flex-direction: column;
   margin-top: 25px;
+}
+.dist-img1{
+  height: 200px ;
 }
 .dist-img{
   height: 60px;

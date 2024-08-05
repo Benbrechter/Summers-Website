@@ -1,13 +1,11 @@
-import summer from '../assets/summers img/image2.jpeg'
-import summer2 from '../assets/summers img/image10.jpeg'
-import summer3 from '../assets/summers img/image11.jpeg'
+import summer from '../assets/summers img/summer.png'
 
 function About() {
 
     return (
       <div className="about-container">
         <div className="about-text-container">
-          <h1 className='name'>Summer Gozum</h1>  
+          <img src={summer} alt="summer" /> 
           <h1 className='title'> Musician, <br /> Artist</h1>
         </div>
       </div>

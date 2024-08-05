@@ -12,12 +12,10 @@ function Distography() {
       </section>
       
       <section className = 'dist-links'>
-        <a href="https://open.spotify.com/artist/4iDWF60uB5ChRxy4XybXkS" style = {{marginBottom: "15px"}} ><img src={spotify} alt="" className="dist-img" /></a> 
         <div>
-          <a href="https://summergozum.bandcamp.com/track/backward"><img src={art} alt="" className="dist-img" /></a>
-          <p>Click Me</p>
+          <a href="https://summergozum.bandcamp.com/track/backward"><img src={art} alt="" className="dist-img1" /></a>
+          <p style={{marginTop: '0'}}>Backward on bandcamp</p>
         </div>
-       
       </section>
       
      </div>

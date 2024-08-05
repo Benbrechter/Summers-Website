@@ -37,19 +37,32 @@ body{
 .about-container{
   padding: 10px;
   height: max-content;
-  background-color: #FADFBB;
   display: flex; 
-  justify-content: space-around;
-  flex-direction: row-reverse;
+  align-items: center;
+  flex-direction: column;
+}
+.name{
+  font-size: 40px;
+  margin-bottom: 15px ;
+}
+.title{
+  font-size: 80px;
+  margin: 0;
 }
 .about-text-container{
   width: 400px;
+  display: flex;
+  flex-direction: column;
 }
 .about-summer-img{
 height: 100px;
 }
+
 .about-text{
-  
+  height: 200px;
+  width: 800px;
+  font-size: 25px;
+  background-color: #FADFBB;
 }
 /* distography */
 .dis-container{
@@ -59,20 +72,28 @@ height: 100px;
   justify-content: space-around;
 }
 .dist-text{
-  width: 400px;
+  width: 600px;
+  font-size: 25px;
+}
+.dist-links{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.dist-img{
+  height: 60px;
 }
 
 /* projects */
 .project-container{
   padding: 10px;
-  height: 430px;
-  background-color: #FADFBB;
+  height: 500px;
   display: flex;
   flex-direction: column;
 }
 .projects-box{
-  height: 300px;
-  width: 200px;
+  height: 400px;
+  margin-top: 15px;
 }
 .revolving-boxes{
   display: flex;
@@ -80,7 +101,7 @@ height: 100px;
   justify-content: space-evenly;
 }
 .project-img{
-height:200px;
+height:400px;
 }
 .project-headers{
   margin:0 ;
@@ -108,15 +129,22 @@ height:200px;
 /* contact */
 .contact-container{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 10px;
   height: max-content;
   margin-bottom: 10px;
-  background-color: #FADFBB;
+}
+.contact-header{
+font-size: 50px;
+}
+.contact-text{
+font-size: 30px;
+width: 700px;
 }
 .form-container{
   width: 500px;
   height: 600px;
+  margin-top: 50px;
 }
 .form-detail{
   display: flex;

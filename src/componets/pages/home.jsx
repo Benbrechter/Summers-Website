@@ -11,12 +11,12 @@ function Home() {
                 <About/>  
             </section>
 
-             <section id='projects'>
-                <Projects/>
-            </section>
-
             <section id='distography'>
                 <Distography/>
+            </section>
+
+             <section id='projects'>
+                <Projects/>
             </section>
            
             <section id='drawings'>

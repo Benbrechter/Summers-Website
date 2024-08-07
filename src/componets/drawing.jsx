@@ -11,7 +11,7 @@ function Drawing(){
 
     return(
         <div>
-            <h1>Hand Drawn Collection</h1>
+            <h1 className="drawing-h1">Hand Drawn Collection</h1>
          <div className="drawing-section">
             <div className="drawing-container">
                 <img src={img1} alt="" className="summers-drawings"/>

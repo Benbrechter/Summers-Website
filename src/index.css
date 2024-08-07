@@ -39,7 +39,7 @@ body{
  list-style: none;
  text-decoration: none;
  color: black;
- margin-right: 10px;
+ margin-right: 20px;
  font-size: 20px;
 }
 .nav-list:visited{
@@ -102,10 +102,12 @@ height: 100px;
 .dist-h1{
   font-size: var(--size);
   font-family: var(--font);
+  text-align: center;
 }
 .dist-text{
-  width: 500px;
+  width: 700px;
   font-size: 30px;
+  text-align: center;
 }
 .dist-links{
   display: flex;
@@ -213,6 +215,7 @@ width: 700px;
   width: 150px;
   height: 40px;
   margin-top: 20px;
+  font-family: var(--font);
 }
 
 /* Footer */

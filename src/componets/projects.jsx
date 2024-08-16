@@ -11,19 +11,19 @@ function Projects() {
 
         <div className="revolving-boxes">
 
-         <div className="projects-box">
+         <div className="projects-box item1">
           <img src={txVase} alt=""  className='project-img'/>
           <h1 className='project-headers'>Texas Vase</h1>
          </div>
-         <div className="projects-box">
+         <div className="projects-box item2">
           <img src={mateSet} alt="" className='project-img'/>
           <h1 className='project-headers'>Roommate Set</h1>
          </div>
-         <div className="projects-box">
+         <div className="projects-box item3">
           <img src={daughters} alt="" className='project-img'/>
            <h1 className='project-headers'>Daughters</h1>
          </div>
-         <div className="projects-box">
+         <div className="projects-box item4">
           <img src={sea} alt="" className='project-img'/>
           <h1 className='project-headers'>By the Sea</h1>
          </div>

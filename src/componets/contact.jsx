@@ -6,7 +6,7 @@ function Contact() {
         <div className="contact-container">
           <div>
             <h1 className = 'contact-header'>Lets Work Together</h1>
-            <h3 className = 'contact-text'>Feel free to leave me a message via the form, or you can get a hold of me at summergozum@gmail.com <br /><br />Let's create somethionf beautiful</h3>
+            <h3 className = 'contact-text'>Feel free to leave me a message via the form, or you can get a hold of me at summergozum@gmail.com <br /><br />Let's create something beautiful</h3>
           </div>
        
           <div className="form-container">
